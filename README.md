@@ -18,7 +18,7 @@
     login VARCHAR(100) UNIQUE NOT NULL,
     password VARCHAR(225),
     date_of_birth DATE,
-    is_active BOOLEAN DEFAULT FALSE
+    is_active VARCHAR(20)
     );
 
 ### Запуск в openserver
