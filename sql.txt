@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS DB_test CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+USE DB_test;
+
+CREATE TABLE Users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    full_name VARCHAR(255) NOT NULL,
+    login VARCHAR(100) UNIQUE NOT NULL,
+    password VARCHAR(225),
+    date_of_birth DATE,
+    is_active BOOLEAN DEFAULT FALSE
+);

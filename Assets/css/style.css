@@ -1,0 +1,48 @@
+.RegButtonAndLink{
+    margin-top: 20px;
+}
+.RegButtonAndLink a {
+    padding-left: 20px;
+}
+.FormReg, .FormAuth{
+    margin-top: 20px;
+}
+
+.lk-container{
+    margin-top: 20px;
+    background-color: cornsilk;
+}
+.ErrMessage{
+    font-weight: bold;
+    color: red;
+    padding:20px 0 20px 0;
+}
+.lkHeader{
+   text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.lkElement{
+    background-color: #f4f4ef;
+    border: 1px solid #807234;
+    border-radius: 5px;
+}
+.lkElement p{
+    text-align: center;
+}
+.lkElement1, .lkElement2,.lkElement4{
+    background-color: #f4f4ef;
+    border: 1px solid #807234;
+    border-radius: 5px;
+    padding-left: 20%;
+}
+
+#changeId, #getCustomId, #currentOnline {
+    cursor: pointer; /* Изменение курсора при наведении */
+}
+
+/* Стили для блока при наведении */
+#changeId:hover,#getCustomId:hover,#currentOnline:hover {
+    color: blue; /* Изменение цвета текста */
+    text-decoration: underline; /* Подчеркивание текста */
+}
